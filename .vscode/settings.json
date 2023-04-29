@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "limits": "cpp",
-        "stdexcept": "cpp"
+        "stdexcept": "cpp",
+        "ostream": "cpp"
     }
 }
