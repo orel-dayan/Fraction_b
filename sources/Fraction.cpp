@@ -218,9 +218,10 @@ namespace ariel
   // oper bool ==
   bool operator==(Fraction fracA, Fraction fracB)
   {
-    int numA = (int)(((float)fracA.m_numetator / (float)fracA.m_denominator) * FLOAT_PRECISION);
-    int numB = (int)(((float)fracB.m_numetator / (float)fracB.m_denominator) * FLOAT_PRECISION);
-    return numA == numB;
+    // int numA = (int)(((float)fracA.m_numetator / (float)fracA.m_denominator) * FLOAT_PRECISION);
+    // int numB = (int)(((float)fracB.m_numetator / (float)fracB.m_denominator) * FLOAT_PRECISION);
+    // return numA == numB;
+    return fracA.m_numetator * fracB.m_denominator == fracB.m_numetator * fracA.m_denominator;
   }
 
   bool operator>(Fraction francA, Fraction francB)

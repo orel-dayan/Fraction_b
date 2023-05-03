@@ -69,7 +69,11 @@ namespace ariel
     friend Fraction operator/(Fraction fracA, float fracB);
     friend Fraction operator/(float fracA, Fraction fracB);
 
-    // opertor += , -= , *= , /=
+    /***
+     * @brief operator += , -= , *= , /=
+     * It is not needed to implement  += , -= , *= , /= f , but it is a good practice to do so.
+
+    */
 
     Fraction &operator+=(Fraction fra);
     Fraction &operator+=(float fra);
