@@ -71,7 +71,7 @@ namespace ariel
 
     /***
      * @brief operator += , -= , *= , /=
-     * It is not needed to implement  += , -= , *= , /= f , but it is a good practice to do so.
+     * It is not needed to implement  += , -= , *= , /= , but it is a good practice to do so.
 
     */
 
