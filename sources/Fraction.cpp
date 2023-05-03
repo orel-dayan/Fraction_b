@@ -215,7 +215,11 @@ namespace ariel
     return temp;
   }
 
-  // oper bool ==
+  /**
+   * @brief operator== , the comments are for the case of float precision but it is not needed now.
+   * I left it for the case of future changes in the code if needed.
+   *
+   */
   bool operator==(Fraction fracA, Fraction fracB)
   {
     // int numA = (int)(((float)fracA.m_numetator / (float)fracA.m_denominator) * FLOAT_PRECISION);

@@ -18,7 +18,7 @@
 namespace ariel
 {
   const int MAX_DIGITS = 1000;
-  const float FLOAT_PRECISION = 1000.0;
+  // const float FLOAT_PRECISION = 1000.0; // 3 digits after the decimal point. for future use if needed.
 
   class Fraction
   {
